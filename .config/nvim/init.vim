@@ -13,7 +13,7 @@ Plug 'kien/ctrlp.vim'
 " Misc
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'airblade/vim-gitgutter'
+Plug 'mhinz/vim-signify'
 Plug 'triglav/vim-visual-increment'
 Plug 'editorconfig/editorconfig-vim'
 
@@ -21,6 +21,7 @@ call plug#end()
 
 " configuration is split into multiple files
 source ~/.config/nvim/.vimrc
+source ~/.config/nvim/signify.vim
 source ~/.config/nvim/coc.vim
 source ~/.config/nvim/nerdtree.vim
 source ~/.config/nvim/ctrlp.vim
