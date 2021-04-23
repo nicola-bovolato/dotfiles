@@ -1,5 +1,8 @@
 # .bashrc
 
+# Change default editor to vim
+export VISUAL="/usr/bin/vim"
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
