@@ -10,6 +10,18 @@ XF86Audio{LowerVolume,RaiseVolume}
 XF86AudioMute
 	pactl set-sink-mute @DEFAULT_SINK@ toggle 
 
+# Next/Prev song
+XF86Audio{Prev,Next}
+    mpc {prev,next}
+
+# Play/Pause song
+XF86Audio{Play,Pause}
+    mpc toggle
+
+# Stop song
+XF86AudioStop
+    mpc stop
+
 # terminal emulator
 super + Return
 	alacritty
