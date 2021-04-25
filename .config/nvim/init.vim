@@ -20,7 +20,7 @@ Plug 'editorconfig/editorconfig-vim'
 call plug#end()
 
 " configuration is split into multiple files
-source ~/.config/nvim/.vimrc
+source ~/.config/nvim/vimrc
 source ~/.config/nvim/signify.vim
 source ~/.config/nvim/coc.vim
 source ~/.config/nvim/nerdtree.vim

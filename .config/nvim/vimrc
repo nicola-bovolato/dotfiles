@@ -1,6 +1,9 @@
 " do not wrap lines
 set nowrap
 
+" allow mouse interaction
+set mouse=a
+
 " line numbers 
 set number
 
@@ -40,6 +43,10 @@ nnoremap <S-Right> :exe 'vertical resize ' . (winwidth(0) * 2/3)<CR>
 " Tab navigation
 nnoremap <C-t> :tabnew<cr>
 nnoremap <C-w> :tabclose<cr>
+
+" copy/paste contents to/from system's clipboard
+map <C-c> "+y
+map <C-v> "+p
 
 " Save file
 nmap <C-s> :w<cr>
