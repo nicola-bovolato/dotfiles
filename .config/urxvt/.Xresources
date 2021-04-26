@@ -29,49 +29,47 @@ URxvt.keysym.Control-Meta-C: builtin-string:
 URxvt.keysym.Control-Meta-V: builtin-string:
 
 !! Fonts
-URxvt*font: xft:Iosevka:style=Regular:size=10
+URxvt*font: xft:Iosevka:style=Regular:size=12
 
 !! Colors
-
-*.background: #050608
-*.foreground: #ebdbb2
-*.cursorColor: #fbf1c7
+*.foreground: #d8dee9
+*.background: #2e3440
+*.cursorColor: #d8dee9
 
 ! Black
-*.color0: #282828
-*.color8: #504945
-
+*.color0: #3b4252
+*.color8: #4c566a
 ! Red
-*.color1: #cc241b
-*.color9: #fb4934
+*.color1: #bf616a
+*.color9: #bf616a
 
 ! Green
-*.color2: #98971a
-*.color10: #b8bb26
+*.color2: #a3be8c
+*.color10: #a3be8c
 
 ! Yellow
-*.color3: #d79921
-*.color11: #fabd2f
+*.color3: #ebcb8b
+*.color11: #ebcb8b
 
 ! Blue
-*.color4: #458588
-*.color12: #83a598
+*.color4: #81a1c1
+*.color12: #81a1c1
 
 ! Magenta
-*.color5: #b16286
-*.color13: #d3869b
+*.color5: #b48ead
+*.color13: #b48ead
 
 ! Cyan
-*.color6: #689d6a                         
-*.color14: #8ec07c
+*.color6: #88c0d0              
+*.color14: #8fbcbb
 
 ! Gray
-*.color7: #928374
-*.color15: #a89984
+*.color7: #e5e9f0
+*.color15: #eceff4
 
 !! Scrollbar
 URxvt.scrollBar: false
 
 !! Effects
-URxvt.depth: 32
-URxvt.background: [85]#000000
+!URxvt.depth: 32
+!URxvt.background: [85]#000000

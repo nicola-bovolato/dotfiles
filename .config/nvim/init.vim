@@ -10,6 +10,9 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 " Find files
 Plug 'kien/ctrlp.vim'
 
+" Theme
+Plug 'arcticicestudio/nord-vim'
+
 " Misc
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -26,3 +29,5 @@ source ~/.config/nvim/coc.vim
 source ~/.config/nvim/nerdtree.vim
 source ~/.config/nvim/ctrlp.vim
 source ~/.config/nvim/airline.vim
+
+colorscheme nord
