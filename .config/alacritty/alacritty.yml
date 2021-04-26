@@ -28,11 +28,11 @@ mouse:
 cursor:
   style: Block
 
-background_opacity: 0.2
+background_opacity: 0.9
 
 colors:
   primary:
-    background: '#2e3440'
+    background: '#090a0c'
     foreground: '#d8dee9'
     dim_foreground: '#a5abb6'
   cursor:
