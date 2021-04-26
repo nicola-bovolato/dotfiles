@@ -11,3 +11,5 @@ bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
+bspc rule -a mpv state=floating follow=on
+bspc rule -a nitrogen state=floating follow=on
