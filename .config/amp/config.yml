@@ -1,0 +1,22 @@
+theme: solarized_dark
+
+tab_width: 4
+soft_tabs: true
+
+types:
+  html:
+    tab_width: 2
+  css:
+    tab_width: 2
+  yml:
+    tab_width: 2
+  json:
+    tab_width: 2
+
+line_wrapping: false
+
+keymap:
+  normal:
+    ctrl-s: "buffer::save"
+    ctrl-t: "workspace::new_buffer"
+    ctrl-w: "buffer::close"
