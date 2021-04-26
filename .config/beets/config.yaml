@@ -1,0 +1,12 @@
+directory: ~/music
+
+import:
+    write: yes
+    copy: yes
+art_filename: cover
+
+ui:
+    color: yes
+
+paths:
+    default: $albumartist/$album%aunique{}/$track $title
