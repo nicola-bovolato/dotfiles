@@ -2,6 +2,10 @@
 # wm independent hotkeys
 #
 
+# Take screenshot
+Print
+    scrot -u -e 'mv $f ~/images/screenshots/'
+
 # Increase/Decrease Volume
 XF86Audio{LowerVolume,RaiseVolume}
 	pactl set-sink-volume @DEFAULT_SINK@ {-5%,+5%}
