@@ -7,7 +7,7 @@ setxkbmap it
 # Set Mouse pointer
 echo 'Xcursor.theme: Adwaita' | xrdb -merge
 xsetroot -cursor_name left_ptr
-unclutter --timeout 2 &
+unclutter -idle 2 &
 
 # Start menu bar
 ~/.config/polybar/launch.sh &
@@ -16,5 +16,5 @@ unclutter --timeout 2 &
 nitrogen --restore &
 
 # Load terminal styles
-xrdb -merge .config/urxvt/.Xresources
+xrdb -merge .config/rxvt-unicode/Xresources
 
