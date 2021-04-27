@@ -1,3 +1,3 @@
 # Dotfiles
 
-<img alt="screenshot" src="https://imgur.com/a/gVNoYEa">
+![Screenshot](https://i.imgur.com/KXLFqyy.png)
