@@ -1,2 +1,2 @@
-xrandr --output DVI-I-1 --primary --auto \
-    --output DVI-D-1 --auto --left-of DVI-I-1
+xrandr --output HDMI-1 --primary --auto \
+    --output DVI-I-1 --auto --left-of HDMI-1
