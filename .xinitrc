@@ -6,4 +6,5 @@
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 # Lauch window manager
-exec bspwm
+/usr/libexec/xfce-polkit &
+dbus-run-session bspwm
