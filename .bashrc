@@ -1,5 +1,8 @@
 # .bashrc
 
+# Add zap managed appimages to path
+export PATH="$HOME/.local/bin:$PATH"
+
 # Change default editor to vim
 export VISUAL="/usr/bin/vim"
 
