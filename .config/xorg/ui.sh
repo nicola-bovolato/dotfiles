@@ -10,7 +10,7 @@ xsetroot -cursor_name left_ptr
 unclutter -idle 2 &
 
 # Start menu bar
-MONITOR=$(cat .config/variables/primary-monitor) ~/.config/polybar/launch.sh &
+PRIMARY_MONITOR=$(cat .config/variables/primary-monitor) SECONDARY_MONITOR=$(cat .config/variables/secondary-monitor) ~/.config/polybar/launch.sh &
 
 # Set wallpaper
 nitrogen --restore &

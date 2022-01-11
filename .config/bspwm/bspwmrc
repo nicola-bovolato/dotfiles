@@ -1,9 +1,11 @@
 #! /bin/bash
 
-PRIMARY_MONITOR=$(cat .config/xorg/primary-monitor)
+PRIMARY_MONITOR=$(cat .config/variables/primary-monitor)
+SECONDARY_MONITOR=$(cat .config/variables/secondary-monitor)
 
 bspc monitor $PRIMARY_MONITOR -d 1 2 3
-#bspc monitor DVI-I-1 -d 4 5 6
+[[ -n "$SECONDARY_MONITOR" ]] && bspc monitor $SECONDARY_MONITOR -d 4 5 6
+
 bspc wm -O $PRIMARY_MONITOR
 
 bspc config border_width         2
