@@ -16,15 +16,18 @@ XF86AudioMute
 
 # Next/Prev song
 XF86Audio{Prev,Next}
-    mpc {prev,next}
+#    mpc {prev,next}
+    playerctl {previous,next}
 
 # Play/Pause song
 XF86Audio{Play,Pause}
-    mpc toggle
+#    mpc toggle
+    playerctl play-pause
 
 # Stop song
 XF86AudioStop
-    mpc stop
+#    mpc stop
+    playerctl stop
 
 # terminal emulator
 super + Return
